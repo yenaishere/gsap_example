@@ -55,4 +55,33 @@
   .benefits .benefits_num {
     font-size: 45px;
   }
+
+  .work-wrapper {
+    gap: 26px;
+  }
+
+  .work-wrapper > div {
+    width: calc(50% - 13px);
+  }
+
+  .work-wrapper > div > .work-item-num {
+    font-size: 35px;
+  }
+
+  .service-item .service-text {
+    font-size: 22px;
+  }
+
+  .service-item .service-arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer .footer-wrapper {
+    font-size: 25px;
+    letter-spacing: 10px;
+    line-height: 3; /* default 단위는 em */
+    text-align: center;
+    width: 80%;
+  }
 }
